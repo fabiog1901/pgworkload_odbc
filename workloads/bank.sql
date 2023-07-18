@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS bank;
+USE bank;
+
 CREATE TABLE IF NOT EXISTS ref_data (
     my_sequence INT PRIMARY KEY,
     my_costant VARCHAR,
